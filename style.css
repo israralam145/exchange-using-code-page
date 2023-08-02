@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    
+  height: 100vh;
+  background: #1E2022;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h3{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  margin-top: 1px;
+  z-index: 1;
+}
+#h3_heading{
+  width: 100vw;
+  position: absolute;
+  height: 10%;
+}
+button {
+  display: flex;
+  width: 160px;
+  padding: 8.75px 14.23px 10.14px 15px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 1px solid #00d179;
+  background: #00d179;
+  text-align: center;
+  color: white;
+  justify-content: center;
+}
+#center_card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+.card {
+  width: 751px;
+  height: 345px;
+  display: flex;
+  flex-shrink: 0;
+  border-top: 1px solid rgba(231, 234, 243, 0.70);
+  background: #46494A;
+}
+
+.card-body h4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 1em;
+}
+
+form .input-field {
+
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  width: 713px;
+  height: 86px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #C4C4C4;
+  text-align: center;
+  font-size: 24px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+  padding-top: 1em;
+}
+
+.input-field input {
+  height: 45px;
+  width: 45px;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1.125rem;
+  text-align: center;
+  border: 0.5px solid #C4C4C4;
+  background: #C4C4C4;
+}
+
+.input-field input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.input-field input::-webkit-inner-spin-button,
+.input-field input::-webkit-outer-spin-button {
+  display: none;
+}
+
+.card-footer {
+  display: flex;
+  width: 751px;
+  height: 74.89px;
+  padding: 16px 305px 17px 286px;
+  align-items: center;
+  flex-shrink: 0;
+}
